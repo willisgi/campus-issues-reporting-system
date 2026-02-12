@@ -55,7 +55,7 @@ export function TrackingAnalytics({ issues }: TrackingAnalyticsProps) {
             </BarChart>
           </ResponsiveContainer>
         ) : (
-          <p className="text-center text-muted-foreground py-8">No data available</p>
+          <p className="text-center text-muted-foreground py-8">No data available yet</p>
         )}
       </Card>
 
