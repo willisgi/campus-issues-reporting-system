@@ -21,27 +21,27 @@ export function SmartDemoInitializer({ children }: { children: React.ReactNode }
       // Initialize demo data
       const demoIssues = [
         {
-          category: 'Buildings & Classrooms',
-          location: 'Building A, Ground Floor',
-          description: 'Broken water fountain in the main hallway. The dispenser is leaking and making a mess.',
+          category: 'Electrical & Lighting',
+          location: 'Science Complex, Pst 3',
+          description: 'Poor lighting condititon. The lighting is poor especially in the morning class.',
           anonymous: false,
           studentId: 'demo-student-1',
           status: 'in-progress' as const,
         },
         {
-          category: 'Electrical & Lighting',
-          location: 'Library East Wing, 3rd Floor',
-          description: 'Insufficient lighting in study area. Several students reported difficulty reading at night.',
+          category: 'Labs & Lecture halls',
+          location: 'Science complex, Psts and Npls',
+          description: 'Too old and not enough seats. Especially during the exam period, you have to search for chairs from far .',
           anonymous: true,
           studentId: undefined,
           status: 'assigned' as const,
         },
         {
           category: 'Hostels & Accommodation',
-          location: 'Hostel B, Building 4',
-          description: 'Air conditioning unit not functioning. Room temperature too high for comfortable stay.',
+          location: 'Block F, Hollywood',
+          description: 'The beds are too shaky and mattresses are old. One wakes up with aching bones and sick of  motion.',
           anonymous: false,
-          studentId: 'demo-student-2',
+          studentId: 'Eric maina',
           status: 'submitted' as const,
         },
       ]
