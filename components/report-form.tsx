@@ -14,7 +14,7 @@ import { CATEGORY_TO_DEPARTMENT } from '@/types/ciras'
 import { AlertCircle, CheckCircle } from 'lucide-react'
 
 const CATEGORIES = [
-  'Buildings & Classrooms',
+  'Buildings & Lecture halls',
   'Electrical & Lighting',
   'Water & Sanitation',
   'Hostels & Accommodation',
