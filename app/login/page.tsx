@@ -141,32 +141,11 @@ export default function LoginPage() {
         </Card>
 
         {/* Demo Credentials */}
-        <Card className="p-6 bg-card/40 backdrop-blur border-border/50 space-y-4">
-          <div>
-            <h3 className="font-semibold text-foreground mb-3">Demo Credentials</h3>
-            <div className="space-y-3 text-sm">
-              <div>
-                <p className="font-mono text-primary">Admin</p>
-                <p className="text-muted-foreground">
-                  Username: <span className="text-foreground">admin</span>
-                </p>
-                <p className="text-muted-foreground">
-                  Password: <span className="text-foreground">admin123</span>
-                </p>
-              </div>
-              <div className="border-t border-border/50 pt-3">
-                <p className="font-mono text-primary mb-2">Staff (Any Department)</p>
-                <p className="text-muted-foreground">
-                  Username: <span className="text-foreground">staff1-staff5</span>
-                </p>
-                <p className="text-muted-foreground">
-                  Password: <span className="text-foreground">staff123</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </Card>
 
+
+
+
+        
         {/* Back to Home */}
         <div className="text-center">
           <Link href="/" className="text-primary hover:underline text-sm">
