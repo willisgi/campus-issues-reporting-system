@@ -23,7 +23,7 @@ export function SmartDemoInitializer({ children }: { children: React.ReactNode }
         {
           category: 'Electrical & Lighting',
           location: 'Science Complex, Pst 3',
-          description: 'Poor lighting condititon. The lighting is poor especially in the morning class.',
+          description: 'Poor lighting condititon. The lighting is poor especially in the morning classes.',
           anonymous: false,
           studentId: 'demo-student-1',
           status: 'in-progress' as const,
